@@ -5,7 +5,13 @@ body {
     font-family: "Nunito", sans-serif;
     min-height: 100vh;
 }
- 
+ footer {
+  text-align: center;
+  padding: 20px;
+  background: #664E4C;
+  color:#c1d37f;
+}
+
 p {
     font-weight: 600;
     font-style: normal;
