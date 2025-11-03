@@ -22,7 +22,7 @@ h1, h2, h3 {
     background-color: #c1d37f;
     padding: 20px;
     border-radius: 10px;
-    width: 80%;
+    width: 40%;
     margin: 20px auto;
     box-sizing: border-box;
 }
@@ -32,7 +32,7 @@ h1, h2, h3 {
     border-radius: 10px;
     background-color: #c1d37f;
     margin: 20px auto;
-    width: 90%;
+    width: 60%;
     box-sizing: border-box;
 }
 
