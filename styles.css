@@ -1,1 +1,100 @@
+body {
+    background: #f0e2a3;
+    color: #664E4C;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    min-height: 100vh;
+}
+
+p {
+    font-weight: 600;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+    font-family: "Chango", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0;
+}
+
+.about, .farewell {
+    background-color: #c1d37f;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.gallery {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #c1d37f;
+    margin: 20px auto;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* two columns */
+    gap: 20px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.item img:hover {
+    transform: scale(1.05);
+}
+
+.item.text {
+    background-color: #F7C3A1;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Responsive for small screens */
+@media (max-width: 700px) {
+    .grid {
+        grid-template-columns: 1fr; /* stack items */
+    }
+}
+
+/* Lightbox CSS */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 36px;
+    cursor: pointer;
+}
 
